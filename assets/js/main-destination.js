@@ -3,7 +3,7 @@ document.addEventListener('click', e =>{
     const el = e.target;
 
     const elText = el.innerText.toLowerCase();
-    if(elText === 'moon' || elText === 'europa' || elText === 'mars' || elText === 'titan' ){
+    if(elText === 'moon' || elText === 'europa' || elText === 'mars' || elText === 'titan' || elText === 'lua' || elText === 'europa' || elText === 'marte' || elText === 'titã' ){
         e.preventDefault();
         carregaPagina(el)
     }
