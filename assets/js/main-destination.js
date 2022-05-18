@@ -1,9 +1,9 @@
 
 document.addEventListener('click', e =>{
+    
     const el = e.target;
 
-    const elText = el.innerText.toLowerCase();
-    if(elText === 'moon' || elText === 'europa' || elText === 'mars' || elText === 'titan' || elText === 'lua' || elText === 'europa' || elText === 'marte' || elText === 'titã' ){
+    if(el.classList.contains('links-destination')){
         e.preventDefault();
         carregaPagina(el)
     }
